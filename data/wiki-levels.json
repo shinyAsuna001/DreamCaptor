@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-16T16:10:00+08:00",
+    "generator": "手写（依据：官方文档指南 + 知识库 kb/10_LEVELS·kb/50_STORY + 1.4.04 包实测）",
+    "bilingual": true,
+    "imageSlots": {
+      "chapter": "/assets/img/wiki/chapters/{id}.webp",
+      "level": "/assets/img/wiki/levels/{id}.webp"
+    },
+    "notes": [
+      "关卡名与三大关结构：最浅层 / 中层 / 深层",
+      "官方口径：地图数量 3+3+3（9 张），机械关已重置完成",
+      "背景故事为编辑加注稿（storySource=draft），只使用官方进度名、Boss 血条名与剧情交底中的既有要素，未新增设定，等待作者审阅",
+      "图片位按 imageSlots 路径放文件即可生效；缺图时前端渲染占位框"
+    ],
+    "storySourceLegend": {
+      "draft": "编辑起草（仅用已证实要素），待作者审阅",
+      "official": "官方文档原文"
+    }
+  },
+  "chapters": [
+    {
+      "id": "ch1",
+      "order": 1,
+      "name": {
+        "zh": "第 1 大关 · 最浅层",
+        "en": "Chapter 1 · The Shallowest Layer"
+      },
+      "shortName": {
+        "zh": "最浅层",
+        "en": "Shallowest Layer"
+      },
+      "summary": {
+        "zh": "梦境最表面的三层。玩家在这里第一次面对被梦魇侵蚀的世界，也是构筑雏形形成的阶段。",
+        "en": "The outermost layers of the dream, where the first builds take shape."
+      },
+      "image": "/assets/img/wiki/chapters/ch1.webp",
+      "pool": {
+        "pick": 1,
+        "note": {
+          "zh": "每局从本关池中随机抽 1 关（不会连续重复）",
+          "en": "One level drawn at random per run"
+        }
+      },
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ]
+    },
+    {
+      "id": "ch2",
+      "order": 2,
+      "name": {
+        "zh": "第 2 大关 · 中层",
+        "en": "Chapter 2 · The Middle Layer"
+      },
+      "shortName": {
+        "zh": "中层",
+        "en": "Middle Layer"
+      },
+      "summary": {
+        "zh": "梦境的中层。环境与敌人全面换代，构筑开始需要围绕具体关卡做取舍。",
+        "en": "The middle layer, where enemies and environments shift entirely."
+      },
+      "image": "/assets/img/wiki/chapters/ch2.webp",
+      "pool": {
+        "pick": 1,
+        "note": {
+          "zh": "随机抽 1 关",
+          "en": "One level drawn at random"
+        }
+      },
+      "levels": [
+        "L11",
+        "L12",
+        "L13"
+      ]
+    },
+    {
+      "id": "ch3",
+      "order": 3,
+      "name": {
+        "zh": "第 3 大关 · 深层",
+        "en": "Chapter 3 · The Deep Layer"
+      },
+      "shortName": {
+        "zh": "深层",
+        "en": "Deep Layer"
+      },
+      "summary": {
+        "zh": "梦境的最深处，也是真相所在。守护梦境的三位存在在此拦下闯入者。",
+        "en": "The deepest layer, where the truth waits."
+      },
+      "image": "/assets/img/wiki/chapters/ch3.webp",
+      "pool": {
+        "pick": 1,
+        "note": {
+          "zh": "随机抽 1 关",
+          "en": "One level drawn at random"
+        }
+      },
+      "levels": [
+        "L21",
+        "L22",
+        "L23"
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "id": "L1",
+      "order": 1,
+      "chapter": "ch1",
+      "name": {
+        "zh": "树林",
+        "en": "Forest"
+      },
+      "code": "forest",
+      "image": "/assets/img/wiki/levels/L1.webp",
+      "gallery": [],
+      "story": {
+        "zh": "最浅层的第一站。被梦魇侵蚀的林地——游戏内进度把它记作「吃人的树林」。",
+        "en": "The first stop of the shallowest layer."
+      },
+      "storySource": "draft",
+      "boss": {
+        "zh": "密林之惧",
+        "en": ""
+      },
+      "keywords": [
+        {
+          "zh": "树林专属道具池",
+          "en": ""
+        }
+      ],
+      "source": "kb/10_LEVELS + 1.4.04 进度名"
+    },
+    {
+      "id": "L2",
+      "order": 2,
+      "chapter": "ch1",
+      "name": {
+        "zh": "十字军",
+        "en": "Crusade"
+      },
+      "code": "cross",
+      "image": "/assets/img/wiki/levels/L2.webp",
+      "gallery": [],
+      "story": {
+        "zh": "圣战主题的一站。进度名写作「人面兽心，毫无理智」，守关者是「最后的十字军」。",
+        "en": "A crusade-themed level."
+      },
+      "storySource": "draft",
+      "boss": {
+        "zh": "最后的十字军",
+        "en": ""
+      },
+      "keywords": [
+        {
+          "zh": "圣战专属道具池",
+          "en": ""
+        },
+        {
+          "zh": "据点 A / B 占点玩法",
+          "en": ""
+        }
+      ],
+      "source": "kb/10_LEVELS + kb/30_BOSSES + 1.4.04 进度名"
+    },
+    {
+      "id": "L3",
+      "order": 3,
+      "chapter": "ch1",
+      "name": {
+        "zh": "真菌",
+        "en": "Fungus"
+      },
+      "code": "mush",
+      "image": "/assets/img/wiki/levels/L3.webp",
+      "gallery": [],
+      "story": {
+        "zh": "被真菌吞没的一站，守关者是「孢狱之心」；场上还有「骇人寄生体」「毒菇倾销者」「鹅膏菌护卫」这类精英。",
+        "en": "A level consumed by fungus."
+      },
+      "storySource": "draft",
+      "boss": {
+        "zh": "孢狱之心",
+        "en": ""
+      },
+      "keywords": [
+        {
+          "zh": "真菌专属道具池",
+          "en": ""
+        }
+      ],
+      "source": "kb/10_LEVELS + kb/30_BOSSES"
+    },
+    {
+      "id": "L11",
+      "order": 4,
+      "chapter": "ch2",
+      "name": {
+        "zh": "沙漠（埃及）",
+        "en": "Desert (Egypt)"
+      },
+      "code": "egypt",
+      "image": "/assets/img/wiki/levels/L11.webp",
+      "gallery": [],
+      "story": {
+        "zh": "中层的第一站，埃及主题。进度名写作「永生？」，守关者是「阿努比斯」。",
+        "en": "The first level of the middle layer, Egyptian-themed."
+      },
+      "storySource": "draft",
+      "boss": {
+        "zh": "阿努比斯",
+        "en": ""
+      },
+      "keywords": [
+        {
+          "zh": "沙漠专属道具池",
+          "en": ""
+        }
+      ],
+      "source": "kb/10_LEVELS + kb/30_BOSSES + 1.4.04 进度名"
+    },
+    {
+      "id": "L12",
+      "order": 5,
+      "chapter": "ch2",
+      "name": {
+        "zh": "海岸",
+        "en": "Shore"
+      },
+      "code": "shore",
+      "image": "/assets/img/wiki/levels/L12.webp",
+      "gallery": [],
+      "story": {
+        "zh": "海岸一带的战场，守关者与船长有关。官方 FAQ 里提到过它的「快找掩体」技能——借助场地中央的桅杆脱离视线即可躲开。",
+        "en": "A coastal battlefield guarded by a captain."
+      },
+      "storySource": "draft",
+      "boss": {
+        "zh": "幽冥号船长 / 船长",
+        "en": ""
+      },
+      "keywords": [
+        {
+          "zh": "海岸专属道具池",
+          "en": ""
+        },
+        {
+          "zh": "船长技能可借桅杆躲避（官方 FAQ 2.9）",
+          "en": ""
+        }
+      ],
+      "source": "kb/10_LEVELS + kb/30_BOSSES + 官方 FAQ 2.9"
+    },
+    {
+      "id": "L13",
+      "order": 6,
+      "chapter": "ch2",
+      "name": {
+        "zh": "矿洞",
+        "en": "Cave"
+      },
+      "code": "cave",
+      "image": "/assets/img/wiki/levels/L13.webp",
+      "gallery": [],
+      "story": {
+        "zh": "地下矿区。进度名写作「惨案」，守关者是「过劳者」——它有招架机制，被招架时会给出提示。官方 FAQ 还专门调侃过洞口那个按钮。",
+        "en": "Underground mines, guarded by the Overworker."
+      },
+      "storySource": "draft",
+      "boss": {
+        "zh": "过劳者",
+        "en": ""
+      },
+      "keywords": [
+        {
+          "zh": "矿洞专属道具池",
+          "en": ""
+        },
+        {
+          "zh": "洞口按钮是个玩笑（官方 FAQ 2.11）",
+          "en": ""
+        }
+      ],
+      "source": "kb/10_LEVELS + kb/30_BOSSES + 官方 FAQ 2.11"
+    },
+    {
+      "id": "L21",
+      "order": 7,
+      "chapter": "ch3",
+      "name": {
+        "zh": "畸变",
+        "en": "Aberration"
+      },
+      "code": "meat",
+      "image": "/assets/img/wiki/levels/L21.webp",
+      "gallery": [],
+      "story": {
+        "zh": "深层第一站，血肉主题，守关者是「憎恶肉山」。",
+        "en": "The first deep-layer level, flesh-themed."
+      },
+      "storySource": "draft",
+      "boss": {
+        "zh": "憎恶肉山",
+        "en": ""
+      },
+      "keywords": [
+        {
+          "zh": "血肉专属道具池",
+          "en": ""
+        }
+      ],
+      "source": "kb/10_LEVELS + kb/30_BOSSES"
+    },
+    {
+      "id": "L22",
+      "order": 8,
+      "chapter": "ch3",
+      "name": {
+        "zh": "星空",
+        "en": "Starry Sky"
+      },
+      "code": "star",
+      "image": "/assets/img/wiki/levels/L22.webp",
+      "gallery": [],
+      "story": {
+        "zh": "星空之下的一站。除了守关的「星辉之主」，还有十二星座轮盘——每局随机抽出其中 4 只作为小 Boss，例如天秤座会把全场怪物血量拉平、摩羯座会把杂兵当炮弹抛出。",
+        "en": "A starry arena with a zodiac wheel that draws four mini-bosses per run."
+      },
+      "storySource": "draft",
+      "boss": {
+        "zh": "星辉之主 / 十二星座",
+        "en": ""
+      },
+      "keywords": [
+        {
+          "zh": "星空专属道具池",
+          "en": ""
+        },
+        {
+          "zh": "十二星座抽签机制",
+          "en": ""
+        }
+      ],
+      "source": "kb/10_LEVELS + kb/30_BOSSES"
+    },
+    {
+      "id": "L23",
+      "order": 9,
+      "chapter": "ch3",
+      "name": {
+        "zh": "机械",
+        "en": "Machine"
+      },
+      "code": "machine",
+      "image": "/assets/img/wiki/levels/L23.webp",
+      "gallery": [],
+      "story": {
+        "zh": "机械主题的一站，进度名写作「铁人叛乱」，守关者是直升机 Boss「蜂鸟」——本体由三十多个部件拼装而成。",
+        "en": "Machine-themed level guarded by the Hummingbird helicopter."
+      },
+      "storySource": "draft",
+      "boss": {
+        "zh": "蜂鸟（直升机）, 机械之主",
+        "en": ""
+      },
+      "keywords": [
+        {
+          "zh": "机械专属道具池",
+          "en": ""
+        }
+      ],
+      "source": "kb/10_LEVELS + kb/30_BOSSES + 1.4.04 进度名"
+    }
+  ]
+}

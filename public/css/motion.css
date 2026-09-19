@@ -1,0 +1,84 @@
+/* =====================================================================
+   motion.css —— 动效（只动 transform / opacity；尊重 prefers-reduced-motion）
+   ===================================================================== */
+
+@keyframes mote-float {
+  0%   { transform: translate3d(0, 0, 0); opacity: 0; }
+  10%  { opacity: 0.55; }
+  90%  { opacity: 0.35; }
+  100% { transform: translate3d(18px, -120vh, 0); opacity: 0; }
+}
+
+@keyframes toast-in {
+  from { transform: translateY(8px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fade-up {
+  from { transform: translateY(14px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { filter: drop-shadow(0 10px 34px rgba(240, 120, 192, 0.35)); }
+  50%      { filter: drop-shadow(0 14px 46px rgba(63, 181, 174, 0.4)); }
+}
+
+/* 底图缓慢推近（Ken Burns）——让"有图"这件事看得出来；reduced-motion 下会被整体关掉 */
+@keyframes bg-drift {
+  from { transform: scale(1.04) translate3d(0, 0, 0); }
+  to   { transform: scale(1.11) translate3d(-1.2%, -0.8%, 0); }
+}
+
+/* 页面切换：淡入上移 */
+.view-enter { animation: fade-up var(--dur-slow) var(--ease-out) both; }
+
+/* 首屏 logo 呼吸光晕 */
+.hero-logo { animation: glow-pulse 7s ease-in-out infinite; }
+
+/* 滚动显现（IntersectionObserver 加 .is-visible） */
+.reveal { opacity: 0; transform: translateY(18px); transition: opacity 620ms var(--ease-out), transform 620ms var(--ease-out); }
+.reveal.is-visible { opacity: 1; transform: none; }
+
+/* 卡片交错显现 */
+.reveal-stagger > * { opacity: 0; transform: translateY(14px); transition: opacity 520ms var(--ease-out), transform 520ms var(--ease-out); }
+.reveal-stagger.is-visible > * { opacity: 1; transform: none; }
+.reveal-stagger.is-visible > *:nth-child(1) { transition-delay: 0ms; }
+.reveal-stagger.is-visible > *:nth-child(2) { transition-delay: 60ms; }
+.reveal-stagger.is-visible > *:nth-child(3) { transition-delay: 120ms; }
+.reveal-stagger.is-visible > *:nth-child(4) { transition-delay: 180ms; }
+.reveal-stagger.is-visible > *:nth-child(5) { transition-delay: 240ms; }
+.reveal-stagger.is-visible > *:nth-child(6) { transition-delay: 300ms; }
+.reveal-stagger.is-visible > *:nth-child(n + 7) { transition-delay: 340ms; }
+
+/* 数字滚动 */
+.stat-value.is-counting { color: var(--c-glow); }
+
+/* 骨架闪烁（异步加载数据集时） */
+.skeleton {
+  background: linear-gradient(90deg, rgba(255,255,255,0.04) 25%, rgba(255,255,255,0.09) 37%, rgba(255,255,255,0.04) 63%);
+  background-size: 400% 100%;
+  animation: skeleton-shimmer 1.4s ease infinite;
+  border-radius: var(--radius-m);
+  min-height: 3rem;
+}
+@keyframes skeleton-shimmer {
+  0% { background-position: 100% 50%; }
+  100% { background-position: 0 50%; }
+}
+
+/* 无障碍：用户要求减少动效时全部关掉 */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  .reveal, .reveal-stagger > * { opacity: 1 !important; transform: none !important; }
+  .bg-layer { transition: none; }
+  .motes { display: none; }
+}
+
+/* 页面不可见时暂停后台轮播（配合 JS 的 visibilitychange） */
+body.is-hidden .mote { animation-play-state: paused; }

@@ -1,0 +1,431 @@
+{
+  "base": "http://127.0.0.1:4173",
+  "at": "2026-09-19T11:20:25.544Z",
+  "pages": [
+    {
+      "path": "/",
+      "label": "首页",
+      "status": 200,
+      "bytes": 9477,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/intro",
+      "label": "地图介绍",
+      "status": 200,
+      "bytes": 9478,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/wiki",
+      "label": "百科目录",
+      "status": 200,
+      "bytes": 9478,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/wiki/levels",
+      "label": "百科·关卡",
+      "status": 200,
+      "bytes": 9479,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/wiki/items",
+      "label": "百科·物品",
+      "status": 200,
+      "bytes": 9478,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/wiki/classes",
+      "label": "百科·职业与天赋",
+      "status": 200,
+      "bytes": 9479,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/wiki/enemies",
+      "label": "百科·敌人（空态）",
+      "status": 200,
+      "bytes": 9479,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/wiki/difficulty",
+      "label": "百科·难度（空态）",
+      "status": 200,
+      "bytes": 9478,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/faq",
+      "label": "Q&A",
+      "status": 200,
+      "bytes": 9478,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/download",
+      "label": "下载",
+      "status": 200,
+      "bytes": 9475,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/community",
+      "label": "社区",
+      "status": 200,
+      "bytes": 9478,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/sponsor",
+      "label": "赞助",
+      "status": 200,
+      "bytes": 9478,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/about",
+      "label": "制作组",
+      "status": 200,
+      "bytes": 9479,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/login",
+      "label": "登录",
+      "status": 200,
+      "bytes": 9476,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    },
+    {
+      "path": "/comments",
+      "label": "留言板",
+      "status": 200,
+      "bytes": 9477,
+      "decodedBytes": 23866,
+      "injected": true,
+      "ok": true
+    }
+  ],
+  "apis": [
+    {
+      "path": "/api/health",
+      "label": "健康检查",
+      "status": 200,
+      "bytes": 162,
+      "ok": true,
+      "extra": ""
+    },
+    {
+      "path": "/api/content",
+      "label": "内容快照",
+      "status": 200,
+      "bytes": 8331,
+      "ok": true,
+      "extra": "dataVersion=38 unresolved=2"
+    },
+    {
+      "path": "/api/content/version",
+      "label": "内容版本",
+      "status": 200,
+      "bytes": 109,
+      "ok": true,
+      "extra": ""
+    },
+    {
+      "path": "/api/wiki/wiki-levels",
+      "label": "关卡数据",
+      "status": 200,
+      "bytes": 2879,
+      "ok": true,
+      "extra": "chapters=3 levels=9"
+    },
+    {
+      "path": "/api/wiki/wiki-items",
+      "label": "物品数据",
+      "status": 200,
+      "bytes": 30474,
+      "ok": true,
+      "extra": "items=387 groups=13"
+    },
+    {
+      "path": "/api/wiki/wiki-classes",
+      "label": "职业数据",
+      "status": 200,
+      "bytes": 5203,
+      "ok": true,
+      "extra": "classes=11"
+    },
+    {
+      "path": "/api/wiki/wiki-faq",
+      "label": "FAQ 数据",
+      "status": 200,
+      "bytes": 4520,
+      "ok": true,
+      "extra": "sections=5"
+    },
+    {
+      "path": "/api/comments",
+      "label": "评论列表",
+      "status": 200,
+      "bytes": 344,
+      "ok": true,
+      "extra": "total=1"
+    },
+    {
+      "path": "/api/admin/session",
+      "label": "后台会话（本机）",
+      "status": 200,
+      "bytes": 75,
+      "ok": true,
+      "extra": ""
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/img/logo-512.webp",
+      "status": 200,
+      "bytes": 31574,
+      "ok": true
+    },
+    {
+      "path": "/assets/img/logo-256.webp",
+      "status": 200,
+      "bytes": 15584,
+      "ok": true
+    },
+    {
+      "path": "/assets/img/favicon-64.png",
+      "status": 200,
+      "bytes": 6992,
+      "ok": true
+    },
+    {
+      "path": "/assets/img/apple-touch-180.png",
+      "status": 200,
+      "bytes": 31341,
+      "ok": true
+    },
+    {
+      "path": "/assets/img/wiki/bow-damage-table.webp",
+      "status": 200,
+      "bytes": 115652,
+      "ok": true
+    },
+    {
+      "path": "/assets/img/favicon-64.png",
+      "status": 200,
+      "bytes": 6992,
+      "ok": true,
+      "from": "index.html"
+    },
+    {
+      "path": "/assets/img/apple-touch-180.png",
+      "status": 200,
+      "bytes": 31341,
+      "ok": true,
+      "from": "index.html"
+    },
+    {
+      "path": "/assets/img/bg-13-1280.webp",
+      "status": 200,
+      "bytes": 80114,
+      "ok": true,
+      "from": "index.html"
+    },
+    {
+      "path": "/css/tokens.css",
+      "status": 200,
+      "bytes": 3007,
+      "ok": true,
+      "from": "index.html"
+    },
+    {
+      "path": "/css/base.css",
+      "status": 200,
+      "bytes": 6220,
+      "ok": true,
+      "from": "index.html"
+    },
+    {
+      "path": "/css/components.css",
+      "status": 200,
+      "bytes": 19431,
+      "ok": true,
+      "from": "index.html"
+    },
+    {
+      "path": "/css/pages.css",
+      "status": 200,
+      "bytes": 11691,
+      "ok": true,
+      "from": "index.html"
+    },
+    {
+      "path": "/css/motion.css",
+      "status": 200,
+      "bytes": 3401,
+      "ok": true,
+      "from": "index.html"
+    },
+    {
+      "path": "/assets/img/logo-256.webp",
+      "status": 200,
+      "bytes": 15584,
+      "ok": true,
+      "from": "index.html"
+    },
+    {
+      "path": "/js/main.js",
+      "status": 200,
+      "bytes": 7131,
+      "ok": true,
+      "from": "index.html"
+    },
+    {
+      "path": "/assets/img/wiki/chapters/ch1.webp",
+      "status": 404,
+      "bytes": 69,
+      "ok": false,
+      "slot": true
+    },
+    {
+      "path": "/assets/img/wiki/chapters/ch2.webp",
+      "status": 404,
+      "bytes": 69,
+      "ok": false,
+      "slot": true
+    },
+    {
+      "path": "/assets/img/wiki/chapters/ch3.webp",
+      "status": 404,
+      "bytes": 69,
+      "ok": false,
+      "slot": true
+    },
+    {
+      "path": "/assets/img/wiki/levels/L1.webp",
+      "status": 200,
+      "bytes": 283732,
+      "ok": true,
+      "slot": true
+    },
+    {
+      "path": "/assets/img/wiki/levels/L2.webp",
+      "status": 200,
+      "bytes": 80272,
+      "ok": true,
+      "slot": true
+    },
+    {
+      "path": "/assets/img/wiki/levels/L3.webp",
+      "status": 200,
+      "bytes": 136106,
+      "ok": true,
+      "slot": true
+    },
+    {
+      "path": "/assets/img/wiki/levels/L11.webp",
+      "status": 200,
+      "bytes": 60290,
+      "ok": true,
+      "slot": true
+    },
+    {
+      "path": "/assets/img/wiki/levels/L12.webp",
+      "status": 200,
+      "bytes": 45054,
+      "ok": true,
+      "slot": true
+    },
+    {
+      "path": "/assets/img/wiki/levels/L13.webp",
+      "status": 404,
+      "bytes": 69,
+      "ok": false,
+      "slot": true
+    },
+    {
+      "path": "/assets/img/wiki/levels/L21.webp",
+      "status": 404,
+      "bytes": 69,
+      "ok": false,
+      "slot": true
+    },
+    {
+      "path": "/assets/img/wiki/levels/L22.webp",
+      "status": 404,
+      "bytes": 69,
+      "ok": false,
+      "slot": true
+    },
+    {
+      "path": "/assets/img/wiki/levels/L23.webp",
+      "status": 404,
+      "bytes": 69,
+      "ok": false,
+      "slot": true
+    }
+  ],
+  "gzip": [
+    {
+      "path": "/",
+      "gzipBytes": 9477,
+      "rawBytes": 23866,
+      "savedPercent": 60
+    },
+    {
+      "path": "/js/main.js",
+      "gzipBytes": 2755,
+      "rawBytes": 7131,
+      "savedPercent": 61
+    },
+    {
+      "path": "/css/base.css",
+      "gzipBytes": 2433,
+      "rawBytes": 6220,
+      "savedPercent": 61
+    },
+    {
+      "path": "/api/content",
+      "gzipBytes": 8331,
+      "rawBytes": 20775,
+      "savedPercent": 60
+    }
+  ],
+  "notes": [
+    "首屏（HTML+CSS+入口JS，gzip 后）合计约 25.0 KB（其中 HTML 9.3 KB）",
+    "关卡图片位：共 12 个，其中 7 个还没放图（前台显示虚线占位框）"
+  ]
+}

@@ -1,0 +1,35 @@
+# 密钥与本地配置
+.env
+.admin-password.txt
+
+# 本机部署设置（ssh 主机别名、服务器目录）：只属于这台机器，不进版本库
+tools/deploy/deploy.local.ps1
+
+# 本机构建配置（素材源文件位置）：只属于这台机器，不进版本库
+tools/build.local.py
+
+# Python 编译缓存（.pyc 里会带上本机路径）
+__pycache__/
+*.pyc
+
+# 数据与备份（含用户账号、评论、内容备份）
+data/backups/
+data/sessions.json
+data/accounts.json
+data/comments.json
+data/*.bak-*
+*.bak-*
+logs/
+
+# 素材源图（82MB，只用于开发机压缩；不进部署包）
+assets-source/
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+*.tmp
+.DS_Store
+
+# 依赖与构建产物（本项目零依赖零构建，保留以防误装）
+node_modules/
+dist/

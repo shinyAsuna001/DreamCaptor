@@ -1,0 +1,1153 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "dataVersion": 38,
+    "updatedAt": "2026-09-19T11:20:25.368Z",
+    "siteName": {
+      "zh": "捕梦者：崩坏的梦境",
+      "en": "Dream Catcher: The Shattered Dream"
+    },
+    "siteNameShort": {
+      "zh": "捕梦者",
+      "en": "Dream Catcher"
+    },
+    "slogan": {
+      "zh": "永夜之下，逐层闯入崩坏的梦境",
+      "en": "Beneath an endless night, delve into a shattering dream"
+    },
+    "versionLabel": {
+      "zh": "最新版 1.6.01",
+      "en": "Latest 1.6.01"
+    },
+    "versionNote": {
+      "zh": "版本以网盘 / 官方群文件内的最新文件为准",
+      "en": "The version in the netdisk / group files is always authoritative"
+    },
+    "mcVersion": "Java 1.20.4",
+    "releaseStage": {
+      "zh": "测试版",
+      "en": "Beta"
+    },
+    "authors": [
+      {
+        "name": "弱智苦力怕",
+        "role": {
+          "zh": "主创之一",
+          "en": "Lead creator"
+        }
+      },
+      {
+        "name": "海潮Seatide",
+        "role": {
+          "zh": "主创之一",
+          "en": "Lead creator"
+        }
+      }
+    ],
+    "icp": {
+      "text": "浙ICP备2026005190号-1",
+      "url": "https://beian.miit.gov.cn/"
+    },
+    "police": {
+      "text": "浙公网安备33010602014302号",
+      "url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602014302"
+    },
+    "numbersBasis": {
+      "zh": "数字取自官方文档（1.6.01）",
+      "en": "Figures from the official doc (1.6.01)"
+    }
+  },
+  "placeholders": {
+    "PACK_DOWNLOAD_URL": {
+      "value": "https://pan.quark.cn/s/4893f16219be#/list/share/73d835a8bd484da8b0db2a461280b384",
+      "group": "下载",
+      "hint": "资源包网盘链接（官方群文件亦可）"
+    },
+    "COMMUNITY_PACK_URL": {
+      "value": "",
+      "group": "下载",
+      "hint": "社区整合包（懒人包）网盘链接"
+    },
+    "DEV_1_HOMEPAGE": {
+      "value": "https://space.bilibili.com/433711032?spm_id_from=333.337.0.0",
+      "group": "开发人员",
+      "hint": "弱智苦力怕 的主页/B站链接"
+    },
+    "DEV_2_HOMEPAGE": {
+      "value": "https://space.bilibili.com/352407805?spm_id_from=333.337.0.0",
+      "group": "开发人员",
+      "hint": "海潮Seatide 的主页/B站链接"
+    },
+    "DEV_1_QQ": {
+      "value": "2824352142",
+      "group": "开发人员",
+      "hint": "弱智苦力怕 的联系 QQ"
+    },
+    "DEV_2_QQ": {
+      "value": "54341340",
+      "group": "开发人员",
+      "hint": "海潮Seatide 的联系 QQ"
+    },
+    "CONTACT_EMAIL": {
+      "value": "",
+      "group": "社区",
+      "hint": "反馈邮箱（可留空，默认走 QQ 群）"
+    },
+    "RELEASE_DATE": {
+      "value": "",
+      "group": "通用",
+      "hint": "版本发布日期"
+    },
+    "SPONSOR_TEXT": {
+      "value": "",
+      "group": "赞助",
+      "hint": "赞助页补充说明（可留空）"
+    },
+    "IMG_LEVELS_CH1": {
+      "value": "",
+      "group": "图片位",
+      "hint": "第 1 大关配图（可留空，按路径自行放图）"
+    },
+    "IMG_LEVELS_CH2": {
+      "value": "",
+      "group": "图片位",
+      "hint": "第 2 大关配图"
+    },
+    "IMG_LEVELS_CH3": {
+      "value": "",
+      "group": "图片位",
+      "hint": "第 3 大关配图"
+    }
+  },
+  "nav": [
+    {
+      "id": "home",
+      "path": "/",
+      "label": {
+        "zh": "首页",
+        "en": "Home"
+      }
+    },
+    {
+      "id": "intro",
+      "path": "/intro",
+      "label": {
+        "zh": "地图介绍",
+        "en": "About"
+      }
+    },
+    {
+      "id": "wiki",
+      "path": "/wiki",
+      "label": {
+        "zh": "百科",
+        "en": "Codex"
+      }
+    },
+    {
+      "id": "faq",
+      "path": "/faq",
+      "label": {
+        "zh": "Q&A",
+        "en": "Q&A"
+      }
+    },
+    {
+      "id": "download",
+      "path": "/download",
+      "label": {
+        "zh": "下载",
+        "en": "Download"
+      }
+    },
+    {
+      "id": "community",
+      "path": "/community",
+      "label": {
+        "zh": "社区",
+        "en": "Community"
+      }
+    },
+    {
+      "id": "sponsor",
+      "path": "/sponsor",
+      "label": {
+        "zh": "赞助",
+        "en": "Support"
+      }
+    },
+    {
+      "id": "about",
+      "path": "/about",
+      "label": {
+        "zh": "制作组",
+        "en": "Credits"
+      }
+    },
+    {
+      "id": "comments",
+      "path": "/comments",
+      "label": {
+        "zh": "留言板",
+        "en": "Comments"
+      }
+    }
+  ],
+  "hero": {
+    "titleArt": "/assets/img/logo-512.webp",
+    "titleArtSrcset": {
+      "256": "/assets/img/logo-256.webp",
+      "512": "/assets/img/logo-512.webp"
+    },
+    "kicker": {
+      "zh": "Minecraft Java 1.20.4 · 纯原版大型肉鸽地图",
+      "en": "Minecraft Java 1.20.4 · Vanilla roguelike map"
+    },
+    "tagline": {
+      "zh": "永夜之下，逐层闯入崩坏的梦境",
+      "en": "Beneath an endless night, delve into a shattering dream"
+    },
+    "backgrounds": [
+      {
+        "id": "bg-13",
+        "role": "hero",
+        "src": "/assets/img/bg-13-1920.webp",
+        "srcset": {
+          "640": "/assets/img/bg-13-640.webp",
+          "1280": "/assets/img/bg-13-1280.webp"
+        },
+        "lqip": "/assets/img/bg-13-lqip.webp",
+        "alt": {
+          "zh": "夜色下的梦境村落与灯火",
+          "en": "A lantern-lit village in the endless night"
+        }
+      },
+      {
+        "id": "bg-02",
+        "role": "hall",
+        "src": "/assets/img/bg-02-1920.webp",
+        "srcset": {
+          "640": "/assets/img/bg-02-640.webp",
+          "1280": "/assets/img/bg-02-1280.webp"
+        },
+        "lqip": "/assets/img/bg-02-lqip.webp",
+        "alt": {
+          "zh": "梦境大厅内部",
+          "en": "Inside the dream hall"
+        }
+      },
+      {
+        "id": "bg-10",
+        "role": "deep",
+        "src": "/assets/img/bg-10-1920.webp",
+        "srcset": {
+          "640": "/assets/img/bg-10-640.webp",
+          "1280": "/assets/img/bg-10-1280.webp"
+        },
+        "lqip": "/assets/img/bg-10-lqip.webp",
+        "alt": {
+          "zh": "红光照亮的阶梯",
+          "en": "A staircase lit in red"
+        }
+      },
+      {
+        "id": "bg-05",
+        "role": "hall",
+        "src": "/assets/img/bg-05-1920.webp",
+        "srcset": {
+          "640": "/assets/img/bg-05-640.webp",
+          "1280": "/assets/img/bg-05-1280.webp"
+        },
+        "lqip": "/assets/img/bg-05-lqip.webp",
+        "alt": {
+          "zh": "藤蔓垂落的巨大厅堂",
+          "en": "A great hall with hanging vines"
+        }
+      },
+      {
+        "id": "bg-11",
+        "role": "fungus",
+        "src": "/assets/img/bg-11-1920.webp",
+        "srcset": {
+          "640": "/assets/img/bg-11-640.webp",
+          "1280": "/assets/img/bg-11-1280.webp"
+        },
+        "lqip": "/assets/img/bg-11-lqip.webp",
+        "alt": {
+          "zh": "泛着绿光的 fungal 洞窟",
+          "en": "A green-lit cavern"
+        }
+      },
+      {
+        "id": "bg-15",
+        "role": "shore",
+        "src": "/assets/img/bg-15-1920.webp",
+        "srcset": {
+          "640": "/assets/img/bg-15-640.webp",
+          "1280": "/assets/img/bg-15-1280.webp"
+        },
+        "lqip": "/assets/img/bg-15-lqip.webp",
+        "alt": {
+          "zh": "夜色水面上的船",
+          "en": "A ship on dark water"
+        }
+      },
+      {
+        "id": "bg-09",
+        "role": "star",
+        "src": "/assets/img/bg-09-1920.webp",
+        "srcset": {
+          "640": "/assets/img/bg-09-640.webp",
+          "1280": "/assets/img/bg-09-1280.webp"
+        },
+        "lqip": "/assets/img/bg-09-lqip.webp",
+        "alt": {
+          "zh": "星辰粒子漂浮的殿堂",
+          "en": "A hall full of drifting stars"
+        }
+      }
+    ],
+    "cta": [
+      {
+        "label": {
+          "zh": "开始下载",
+          "en": "Download"
+        },
+        "href": "/download",
+        "style": "primary"
+      },
+      {
+        "label": {
+          "zh": "百科图鉴",
+          "en": "Codex"
+        },
+        "href": "/wiki",
+        "style": "ghost"
+      },
+      {
+        "label": {
+          "zh": "常见问题",
+          "en": "Q&A"
+        },
+        "href": "/faq",
+        "style": "ghost"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "id": "chapters",
+      "label": {
+        "zh": "大关",
+        "en": "Chapters"
+      },
+      "derive": {
+        "dataset": "wiki-levels",
+        "expr": "chapters.length"
+      },
+      "fallback": 3
+    },
+    {
+      "id": "levels",
+      "label": {
+        "zh": "主题关卡",
+        "en": "Themed levels"
+      },
+      "derive": {
+        "dataset": "wiki-levels",
+        "expr": "levels.length"
+      },
+      "fallback": 9
+    },
+    {
+      "id": "items",
+      "label": {
+        "zh": "道具武器",
+        "en": "Items & weapons"
+      },
+      "derive": {
+        "dataset": "wiki-items",
+        "expr": "items.length"
+      },
+      "fallback": 387,
+      "note": {
+        "zh": "官方标称 550+",
+        "en": "Official figure: 550+"
+      }
+    },
+    {
+      "id": "classes",
+      "label": {
+        "zh": "职业",
+        "en": "Classes"
+      },
+      "derive": {
+        "dataset": "wiki-classes",
+        "expr": "classes.length"
+      },
+      "fallback": 11
+    },
+    {
+      "id": "talents",
+      "label": {
+        "zh": "天赋",
+        "en": "Talents"
+      },
+      "derive": {
+        "dataset": "wiki-classes",
+        "expr": "classes.talents.total"
+      },
+      "fallback": 88
+    },
+    {
+      "id": "players",
+      "label": {
+        "zh": "多人",
+        "en": "Players"
+      },
+      "value": null,
+      "display": "4→8",
+      "note": {
+        "zh": "原版 4 人，扩展数据包 8 人",
+        "en": "4 vanilla, 8 with the expansion datapack"
+      }
+    }
+  ],
+  "intro": {
+    "title": {
+      "zh": "地图介绍",
+      "en": "About the map"
+    },
+    "lead": {
+      "zh": "《捕梦者》是一款 Minecraft Java 1.20.4 的纯原版肉鸽割草地图：三大层九张主题关卡、每局随机构筑、支持最多4人联机(拓展包可扩充至8人)。你只能靠手上这一堆奇奇怪怪的道具活下去。",
+      "en": "Dream Catcher is a vanilla roguelike hack-and-slash map for Minecraft Java 1.20.4: nine themed levels across three chapters, a new build every run, Max for 4 players(can be up to 8 when using extension pack)."
+    },
+    "blocks": [
+      {
+        "id": "feel",
+        "title": {
+          "zh": "独特的原版战斗手感",
+          "en": "unique vanilla combat system"
+        },
+        "body": {
+          "zh": "精准控距、走位体现战斗智慧，道具配合形成流派体系，玩出你的肉鸽智慧.",
+          "en": "Precise distance controling and positioning show your combat smarts, combining items creates unique playstyles, and you can show off your roguelike intelligence."
+        },
+        "bullets": [
+          {
+            "zh": "波次作战",
+            "en": "Wave-clearing combat"
+          },
+          {
+            "zh": "海量怪物",
+            "en": "Tides of monsters"
+          }
+        ]
+      },
+      {
+        "id": "build",
+        "title": {
+          "zh": "每局都是新的构筑",
+          "en": "A new build every run"
+        },
+        "body": {
+          "zh": "道具武器上百件、11 个职业各带 8 条天赋，你甚至可以和同伴\"PVP\"！同一道具也有多种联动，每一局都要重新取舍。",
+          "en": "Hundreds of items, 11 classes, 8 talents each — every run is a fresh set of trade-offs."
+        },
+        "bullets": [
+          {
+            "zh": "道具武器 · 上百件",
+            "en": "Hundreds of items"
+          },
+          {
+            "zh": "11 职业 × 8 天赋",
+            "en": "11 classes × 8 talents"
+          }
+        ]
+      },
+      {
+        "id": "route",
+        "title": {
+          "zh": "三大层九张图，走哪条你说了不算",
+          "en": "Three chapters, nine levels"
+        },
+        "body": {
+          "zh": "浅层、中层、深层各有三张主题关卡，每一大关从本层关卡池里随机抽一张——这局是埃及还是矿洞、星空还是机械，开局时并不知道。关与关之间进商店整理构筑，然后继续往里走。",
+          "en": "Each chapter draws one of its three themed levels at random, with a shop between them."
+        },
+        "bullets": [
+          {
+            "zh": "最浅层 / 中层 / 深层",
+            "en": "Shallow / middle / deep"
+          },
+          {
+            "zh": "随机抽关 + 关间商店",
+            "en": "Random pools + shop"
+          }
+        ]
+      },
+      {
+        "id": "meta",
+        "title": {
+          "zh": "打不过就变强，变强了还能更狠",
+          "en": "Meta progression"
+        },
+        "body": {
+          "zh": "局内死了不掉落，局外用捕梦网解锁职业与天赋树；觉得太简单就自己把梦魇值拉满——难度和奖励都由你决定。",
+          "en": "Unlock classes and talents between runs, and raise the nightmare level when it gets too easy."
+        },
+        "bullets": [
+          {
+            "zh": "局外解锁职业与天赋",
+            "en": "Unlock classes & talents"
+          },
+          {
+            "zh": "可自选难度的梦魇值",
+            "en": "Adjustable difficulty"
+          }
+        ]
+      },
+      {
+        "id": "coop",
+        "title": {
+          "zh": "开黑更热闹",
+          "en": "Better with friends"
+        },
+        "body": {
+          "zh": "原版最多 4 人，配合官方扩展数据包可到 8 人；怪物数量会按人数缩放。有官方服务器，也可以自己和朋友开一个。",
+          "en": "Up to 4 players in vanilla, 8 with the official expansion datapack."
+        },
+        "bullets": [
+          {
+            "zh": "4 人（扩展包 8 人）",
+            "en": "4 (8 with datapack)"
+          },
+          {
+            "zh": "官方服务器可用",
+            "en": "Official server"
+          }
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "label": {
+          "zh": "游戏版本",
+          "en": "MC version"
+        },
+        "value": {
+          "zh": "Java 1.20.4",
+          "en": "Java 1.20.4"
+        }
+      },
+      {
+        "label": {
+          "zh": "当前版本",
+          "en": "Current version"
+        },
+        "value": {
+          "zh": "1.6.01（测试版）",
+          "en": "1.6.01 (beta)"
+        }
+      },
+      {
+        "label": {
+          "zh": "关卡数量",
+          "en": "Levels"
+        },
+        "value": {
+          "zh": "3+3+3，共 9 张",
+          "en": "3+3+3 = 9"
+        }
+      },
+      {
+        "label": {
+          "zh": "道具武器",
+          "en": "Items"
+        },
+        "value": {
+          "zh": "550+",
+          "en": "550+"
+        }
+      },
+      {
+        "label": {
+          "zh": "职业",
+          "en": "Classes"
+        },
+        "value": {
+          "zh": "11 个",
+          "en": "11"
+        }
+      },
+      {
+        "label": {
+          "zh": "多人",
+          "en": "Multiplayer"
+        },
+        "value": {
+          "zh": "原版 4 人 / 扩展包 8 人",
+          "en": "4 vanilla / 8 with datapack"
+        }
+      },
+      {
+        "label": {
+          "zh": "官方服务器",
+          "en": "Official server"
+        },
+        "value": {
+          "zh": "有",
+          "en": "Yes"
+        }
+      },
+      {
+        "label": {
+          "zh": "拓展包支持",
+          "en": "Add-on support"
+        },
+        "value": {
+          "zh": "支持（可自制）",
+          "en": "Yes (community-made)"
+        }
+      },
+      {
+        "label": {
+          "zh": "是否需要模组",
+          "en": "Mods required"
+        },
+        "value": {
+          "zh": "不需要",
+          "en": "None"
+        }
+      },
+      {
+        "label": {
+          "zh": "必须安装材质包",
+          "en": "Resource pack"
+        },
+        "value": {
+          "zh": "是（否则自定义材质不显示）",
+          "en": "Required"
+        }
+      }
+    ],
+    "techTitle": {
+      "zh": "顺便看看制作细节",
+      "en": "Under the hood"
+    },
+    "techNote": {
+      "zh": "这些数字统计自地图存档，新版本可能已有变化，不影响游玩。",
+      "en": "Measured from the map save; may differ in newer versions."
+    },
+    "techFacts": [
+      {
+        "label": {
+          "zh": "命令方块",
+          "en": "Command blocks"
+        },
+        "value": "4479"
+      },
+      {
+        "label": {
+          "zh": "脚本函数",
+          "en": "Functions"
+        },
+        "value": "2745"
+      },
+      {
+        "label": {
+          "zh": "脚本行数",
+          "en": "Script lines"
+        },
+        "value": "83340"
+      },
+      {
+        "label": {
+          "zh": "主世界区块",
+          "en": "Chunks (overworld)"
+        },
+        "value": "441430"
+      },
+      {
+        "label": {
+          "zh": "Boss 血条",
+          "en": "Boss bars"
+        },
+        "value": "37"
+      },
+      {
+        "label": {
+          "zh": "计分板目标",
+          "en": "Scoreboard objectives"
+        },
+        "value": "1245"
+      }
+    ]
+  },
+  "requirements": {
+    "title": {
+      "zh": "配置要求",
+      "en": "System requirements"
+    },
+    "lead": {
+      "zh": "地图依靠大量数据包实现武器与怪物机制，因此在某些阶段会出现大量实体与判定，导致 TPS / MSPT 下降而卡顿。以下为官方给出的最低与推荐配置。",
+      "en": "Official minimum and recommended specs."
+    },
+    "rows": [
+      {
+        "label": {
+          "zh": "系统",
+          "en": "OS"
+        },
+        "min": "Windows 10 22H2 及以上",
+        "recommended": "Windows 10 22H2 及以上"
+      },
+      {
+        "label": {
+          "zh": "CPU",
+          "en": "CPU"
+        },
+        "min": "i5-7500",
+        "recommended": "i5-10400"
+      },
+      {
+        "label": {
+          "zh": "内存",
+          "en": "RAM"
+        },
+        "min": "6GB DDR4 2400",
+        "recommended": "8GB DDR4 3600"
+      },
+      {
+        "label": {
+          "zh": "显卡",
+          "en": "GPU"
+        },
+        "min": "—",
+        "recommended": "GTX 1060 6G / RX 580 8G"
+      },
+      {
+        "label": {
+          "zh": "存储空间",
+          "en": "Storage"
+        },
+        "min": "1.5 GB",
+        "recommended": "1.5 GB"
+      }
+    ],
+    "effects": {
+      "min": {
+        "zh": "全低画质、少量粒子、无光影、12 区块渲染：最低帧率 >30，最高帧率 ≥60",
+        "en": "Low settings: >30 FPS min, ≥60 FPS max"
+      },
+      "recommended": {
+        "zh": "全高画质、全部粒子、无光影、12 区块渲染：最低帧率 ≥60，最高帧率 >120；光影中画质下：最低 >50，最高 >90",
+        "en": "High settings: ≥60 FPS min, >120 FPS max"
+      }
+    },
+    "note": {
+      "zh": "理想效果仅供参考，请以实际体验为准。",
+      "en": "Reference only; actual performance may vary."
+    }
+  },
+  "downloads": {
+    "title": {
+      "zh": "下载",
+      "en": "Download"
+    },
+    "lead": {
+      "zh": "推荐通过官方 QQ 群的群文件下载（更新最快、附带懒人包）。网盘链接如下，链接失效请在群里反馈。",
+      "en": "Downloading from the official QQ group files is recommended."
+    },
+    "items": [
+      {
+        "id": "map",
+        "name": {
+          "zh": "地图包",
+          "en": "Map package"
+        },
+        "version": {
+          "zh": "最新版 1.6.01",
+          "en": "Latest 1.6.01"
+        },
+        "size": "",
+        "url": "https://pan.quark.cn/s/4893f16219be",
+        "urlPlaceholder": "",
+        "requires": {
+          "zh": "需配合原版 1.20.4（原版或 Forge 均可）",
+          "en": "Requires vanilla 1.20.4"
+        },
+        "note": {
+          "zh": "解压后放入 saves 文件夹",
+          "en": "Unzip into your saves folder"
+        },
+        "recommended": false
+      },
+      {
+        "id": "pack",
+        "name": {
+          "zh": "资源包（材质包）",
+          "en": "Resource pack"
+        },
+        "version": {
+          "zh": "随地图版本更新",
+          "en": "Ships with the map"
+        },
+        "size": "",
+        "url": "{{PACK_DOWNLOAD_URL}}",
+        "urlPlaceholder": "PACK_DOWNLOAD_URL",
+        "requires": {
+          "zh": "必装；否则大厅艺术字体与部分图标无法显示",
+          "en": "Required, otherwise art fonts and icons won't render"
+        },
+        "note": {
+          "zh": "直接放入 resourcepacks 文件夹，不要解压",
+          "en": "Put it in resourcepacks, do NOT unzip"
+        },
+        "recommended": true
+      },
+      {
+        "id": "bundle",
+        "name": {
+          "zh": "社区整合包（懒人包）",
+          "en": "Community bundle"
+        },
+        "version": {
+          "zh": "社区制作",
+          "en": "Community-made"
+        },
+        "size": "",
+        "url": "{{COMMUNITY_PACK_URL}}",
+        "urlPlaceholder": "COMMUNITY_PACK_URL",
+        "requires": {
+          "zh": "内含地图 + 资源包 + 优化 mod",
+          "en": "Map + resource pack + optimization mods"
+        },
+        "note": {
+          "zh": "拖入 PCL 等启动器即可，最省事",
+          "en": "Drag into your launcher"
+        },
+        "recommended": false
+      }
+    ],
+    "mirrorNote": {
+      "zh": "官方 QQ 群文件（推荐，更新最快）：一群 1080211664 / 二群 1083060141",
+      "en": "Official QQ group files: 1080211664 / 1083060141"
+    },
+    "steps": [
+      {
+        "zh": "下载并安装原版 Minecraft Java 1.20.4",
+        "en": "Install vanilla Minecraft Java 1.20.4"
+      },
+      {
+        "zh": "把地图包解压后放进 .minecraft\\saves 文件夹",
+        "en": "Unzip the map into .minecraft\\saves"
+      },
+      {
+        "zh": "把资源包（不要解压）放进 .minecraft\\resourcepacks",
+        "en": "Put the resource pack (unzipped) into resourcepacks"
+      },
+      {
+        "zh": "进入游戏后在「选项 → 资源包」里启用它，并把语言调到中文",
+        "en": "Enable the pack in Options → Resource Packs"
+      },
+      {
+        "zh": "创建世界时模式选「冒险」，难度选「简单」，渲染距离 ≥ 11",
+        "en": "Create the world in Adventure mode, Easy difficulty, render distance ≥ 11"
+      }
+    ],
+    "warning": {
+      "zh": "千万不要安装「高清修复（OptiFine）」，会导致部分贴图错误。",
+      "en": "Do not install OptiFine — it breaks some textures."
+    }
+  },
+  "community": {
+    "title": {
+      "zh": "社区",
+      "en": "Community"
+    },
+    "lead": {
+      "zh": "遇到问题优先看 Q&A；仍有疑问就来群里问，提问请带截图与文字描述。",
+      "en": "Join the community for help and updates."
+    },
+    "qqGroups": [
+      {
+        "name": {
+          "zh": "官方一群",
+          "en": "Group 1"
+        },
+        "number": "1080211664",
+        "url": "https://qm.qq.com/q/3ta5m3NkNq",
+        "joinHint": {
+          "zh": "点「加群」进入，或在 QQ 里搜索群号；群文件内含地图与资源包",
+          "en": "Join via the link, or search the group number in QQ"
+        }
+      },
+      {
+        "name": {
+          "zh": "官方二群",
+          "en": "Group 2"
+        },
+        "number": "1083060141",
+        "url": "https://qm.qq.com/q/hXyBBtHO36",
+        "joinHint": {
+          "zh": "点「加群」进入，或在 QQ 里搜索群号；群文件内含地图与资源包",
+          "en": "Join via the link, or search the group number in QQ"
+        }
+      }
+    ],
+    "videos": [
+      {
+        "title": {
+          "zh": "PV1（26.2 发布）",
+          "en": "PV1 (Feb 2026)"
+        },
+        "url": "https://www.bilibili.com/video/BV1w2ZYBVEqP",
+        "platform": "bilibili"
+      },
+      {
+        "title": {
+          "zh": "PV2（26.7 发布）",
+          "en": "PV2 (Jul 2026)"
+        },
+        "url": "https://www.bilibili.com/video/BV1Ctgd6oESB",
+        "platform": "bilibili"
+      }
+    ],
+    "server": {
+      "enabled": true,
+      "title": {
+        "zh": "官方服务器",
+        "en": "Official server"
+      },
+      "note": {
+        "zh": "服务器内可使用 /function zzb:reset（冒险）与 /function zzb:spectator（旁观）",
+        "en": "In-game: /function zzb:reset and /function zzb:spectator"
+      }
+    },
+    "modded": {
+      "title": {
+        "zh": "魔改版",
+        "en": "Modded edition"
+      },
+      "url": "https://fcnov19vo8v6.feishu.cn/wiki/L598wdZrFiFsr3keYZ5ccZn3njd",
+      "note": {
+        "zh": "魔改版由社区制作，加入了额外难度选项与词条大厅；游玩前请先阅读官方《魔改版游玩须知》。后续可能还会有其他分支版本。",
+        "en": "Community-made edition with extra difficulty options. Read the official notice before playing."
+      }
+    },
+    "docs": {
+      "title": {
+        "zh": "官方文档",
+        "en": "Official docs"
+      },
+      "url": "https://fcnov19vo8v6.feishu.cn/wiki/CkkhwkFAki4y9HkiQlKca0vAnfd",
+      "note": {
+        "zh": "官方文档指南（含职业攻略、怪物图鉴等，仍在补充）",
+        "en": "Official documentation hub"
+      }
+    }
+  },
+  "sponsor": {
+    "title": {
+      "zh": "赞助",
+      "en": "Support us"
+    },
+    "lead": {
+      "zh": "如果觉得《捕梦者》好玩，欢迎通过爱发电支持我们的制作。",
+      "en": "If you enjoy Dream Catcher, consider supporting development."
+    },
+    "url": "https://afdian.com/a/creeper123",
+    "urlLabel": {
+      "zh": "爱发电 · creeper123",
+      "en": "afdian.com/a/creeper123"
+    },
+    "note": {
+      "zh": "{{SPONSOR_TEXT}}",
+      "en": ""
+    }
+  },
+  "credits": {
+    "title": {
+      "zh": "制作组",
+      "en": "Credits"
+    },
+    "lead": {
+      "zh": "感谢他们的付出。",
+      "en": "Thanks to everyone who made this map."
+    },
+    "people": [
+      {
+        "name": "弱智苦力怕",
+        "role": {
+          "zh": "主创之一",
+          "en": "Lead creator"
+        },
+        "qq": "{{DEV_1_QQ}}"
+      },
+      {
+        "name": "海潮Seatide",
+        "role": {
+          "zh": "主创之一",
+          "en": "Lead creator"
+        },
+        "qq": "{{DEV_2_QQ}}"
+      }
+    ],
+    "contributorsNote": {
+      "zh": "道具图鉴里的「投稿人」是提供该条道具说明的社区玩家。",
+      "en": "“Contributor” marks the community member who submitted that item entry."
+    }
+  },
+  "wiki": {
+    "title": {
+      "zh": "百科",
+      "en": "Codex"
+    },
+    "lead": {
+      "zh": "关卡、物品、职业与天赋的图鉴资料，全部来自官方文档与游戏内实测。",
+      "en": "Reference data from official docs and in-game measurements."
+    },
+    "pages": [
+      {
+        "id": "levels",
+        "path": "/wiki/levels",
+        "label": {
+          "zh": "关卡",
+          "en": "Levels"
+        },
+        "dataset": "wiki-levels",
+        "icon": "map"
+      },
+      {
+        "id": "items",
+        "path": "/wiki/items",
+        "label": {
+          "zh": "物品",
+          "en": "Items"
+        },
+        "dataset": "wiki-items",
+        "icon": "chest"
+      },
+      {
+        "id": "classes",
+        "path": "/wiki/classes",
+        "label": {
+          "zh": "职业与天赋",
+          "en": "Classes & Talents"
+        },
+        "dataset": "wiki-classes",
+        "icon": "card"
+      },
+      {
+        "id": "enemies",
+        "path": "/wiki/enemies",
+        "label": {
+          "zh": "敌人",
+          "en": "Enemies"
+        },
+        "dataset": "wiki-enemies",
+        "icon": "skull",
+        "empty": true,
+        "emptyNote": {
+          "zh": "怪物图鉴整理中，官方文档尚在补充。",
+          "en": "Bestiary coming soon."
+        }
+      },
+      {
+        "id": "difficulty",
+        "path": "/wiki/difficulty",
+        "label": {
+          "zh": "难度",
+          "en": "Difficulty"
+        },
+        "dataset": "wiki-difficulty",
+        "icon": "gauge",
+        "empty": true,
+        "emptyNote": {
+          "zh": "难度机制整理中。",
+          "en": "Difficulty details coming soon."
+        }
+      }
+    ],
+    "imageSlots": {
+      "levels": "/assets/img/wiki/levels/{id}.webp",
+      "chapters": "/assets/img/wiki/chapters/{id}.webp",
+      "classes": "/assets/img/wiki/classes/{slug}.webp",
+      "items": "/assets/img/wiki/items/{id}.webp"
+    }
+  },
+  "faq": {
+    "title": {
+      "zh": "常见问题",
+      "en": "Q&A"
+    },
+    "lead": {
+      "zh": "整理自官方《常见问题解答》（2026.7.21 更新）与《官方文档指南》。",
+      "en": "Based on the official FAQ."
+    },
+    "path": "/faq",
+    "dataset": "wiki-faq"
+  },
+  "comments": {
+    "enabled": true,
+    "requireLogin": true,
+    "maxLength": 1000,
+    "replyDepth": 1,
+    "pageSize": 20,
+    "title": {
+      "zh": "留言板",
+      "en": "Comments"
+    },
+    "lead": {
+      "zh": "登录后即可留言与回复。请友善发言，违规内容会被处理。",
+      "en": "Sign in to comment. Please keep it friendly."
+    }
+  },
+  "footer": {
+    "note": {
+      "zh": "网站作者：shiny_Asuna",
+      "en": "Site by shiny_Asuna"
+    },
+    "links": [
+      {
+        "label": {
+          "zh": "官方文档",
+          "en": "Official docs"
+        },
+        "href": "https://fcnov19vo8v6.feishu.cn/wiki/CkkhwkFAki4y9HkiQlKca0vAnfd"
+      },
+      {
+        "label": {
+          "zh": "爱发电",
+          "en": "afdian"
+        },
+        "href": "https://afdian.com/a/creeper123"
+      },
+      {
+        "label": {
+          "zh": "夸克网盘",
+          "en": "Netdisk"
+        },
+        "href": "https://pan.quark.cn/s/4893f16219be"
+      }
+    ],
+    "build": {
+      "zh": "",
+      "en": ""
+    },
+    "testFlag": "local-smoke",
+    "author": {
+      "zh": "网站作者：shiny_Asuna",
+      "en": "Site by shiny_Asuna"
+    },
+    "authorUrl": "http://shinyasuna.top:3000/"
+  },
+  "theme": {
+    "bgOpacity": 0.54,
+    "bgBoost": 1.07,
+    "bgVeilTop": 0.43,
+    "bgVeilMid": 0.72,
+    "bgVeilBottom": 0.95
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>捕梦者：崩坏的梦境 · 官网</title>
+<meta name="description" content="《捕梦者：崩坏的梦境》官方网页 —— Minecraft Java 1.20.4 纯原版大型肉鸽地图，3+3+3 共九张主题关卡、470+ 道具武器、11 个职业。">
+<meta name="theme-color" content="#05060e">
+<meta property="og:title" content="捕梦者：崩坏的梦境">
+<meta property="og:description" content="永夜之下，逐层闯入崩坏的梦境。">
+<meta property="og:image" content="/assets/img/logo-512.webp">
+<link rel="icon" href="/assets/img/favicon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-180.png">
+<link rel="preload" as="image" href="/assets/img/bg-13-1280.webp" media="(min-width: 900px)">
+<link rel="stylesheet" href="/css/tokens.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/components.css">
+<link rel="stylesheet" href="/css/pages.css">
+<link rel="stylesheet" href="/css/motion.css">
+<!--DREAM_CONTENT-->
+</head>
+<body>
+  <a class="skip-link" href="#app" data-i18n="skip">跳到主要内容</a>
+
+  <div class="bg-stage" id="bgStage" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="shell header-inner">
+      <a class="brand" href="/" data-link>
+        <img class="brand-logo" src="/assets/img/logo-256.webp" width="36" height="36" alt="捕梦者" decoding="async">
+        <span class="brand-text" id="brandText">捕梦者</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="siteNav" data-i18n-aria="menu">
+        <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav" aria-label="主导航">
+        <ul class="nav-list" id="navList"></ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-toggle" id="langToggle" type="button" title="切换语言 / Switch language">
+          <span class="lang-now" id="langNow">中</span><span class="lang-sep">/</span><span class="lang-alt" id="langAlt">EN</span>
+        </button>
+        <span class="user-area" id="userArea"></span>
+      </div>
+    </div>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  </header>
+
+  <main id="app" tabindex="-1" aria-live="polite"></main>
+
+  <footer class="site-footer" id="siteFooter"></footer>
+
+  <div class="toast-stack" id="toastStack" aria-live="polite" aria-atomic="true"></div>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

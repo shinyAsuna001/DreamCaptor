@@ -1,0 +1,789 @@
+{
+  "generatedAt": "2026-09-16T15:29:37+08:00",
+  "generator": "site/tools/build_assets.py",
+  "budgetBytes": 26214400,
+  "totalBytes": 1896592,
+  "items": [
+    {
+      "id": "bg-01",
+      "kind": "background",
+      "source": "2026-03-01_23.57.07.png",
+      "sourceBytes": 5348537,
+      "sourceSha256": "c43d7867daab5d5278bd5eced29a9dfa5b989f4f8985ef55ae505be54e3455f1",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-01-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 85430
+        },
+        {
+          "file": "/public/assets/img/bg-01-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 42926
+        },
+        {
+          "file": "/public/assets/img/bg-01-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 14510
+        },
+        {
+          "file": "/public/assets/img/bg-01-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 136,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 143002,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-02",
+      "kind": "background",
+      "source": "2026-03-01_23.59.31.png",
+      "sourceBytes": 5885448,
+      "sourceSha256": "7e371c2edc6e940e4558491101bb212f423cfd89ac1dad677f58ae0c9aaf452f",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-02-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 75032
+        },
+        {
+          "file": "/public/assets/img/bg-02-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 36316
+        },
+        {
+          "file": "/public/assets/img/bg-02-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 12160
+        },
+        {
+          "file": "/public/assets/img/bg-02-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 148,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 123656,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-03",
+      "kind": "background",
+      "source": "2026-03-02_00.01.04.png",
+      "sourceBytes": 5224261,
+      "sourceSha256": "4980476e301efc05ce8179d7003b027bdcb3fe508a3a5c9eabc814eeb0c3bdeb",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-03-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 54320
+        },
+        {
+          "file": "/public/assets/img/bg-03-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 21714
+        },
+        {
+          "file": "/public/assets/img/bg-03-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 5360
+        },
+        {
+          "file": "/public/assets/img/bg-03-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 78,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 81472,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-04",
+      "kind": "background",
+      "source": "2026-03-02_00.02.04.png",
+      "sourceBytes": 4668658,
+      "sourceSha256": "c9dac7ac534bfd483f3b67371d82f17eebc19b602f532ee6fe9b1585f929aa80",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-04-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 57390
+        },
+        {
+          "file": "/public/assets/img/bg-04-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 25246
+        },
+        {
+          "file": "/public/assets/img/bg-04-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 7996
+        },
+        {
+          "file": "/public/assets/img/bg-04-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 110,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 90742,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-05",
+      "kind": "background",
+      "source": "2026-03-02_00.02.16.png",
+      "sourceBytes": 6098804,
+      "sourceSha256": "0bcaaded464d9d052b2e85136bf7a631fa439c3543ecf4a9e0ea79101476613c",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-05-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 60430
+        },
+        {
+          "file": "/public/assets/img/bg-05-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 26448
+        },
+        {
+          "file": "/public/assets/img/bg-05-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 7234
+        },
+        {
+          "file": "/public/assets/img/bg-05-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 94,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 94206,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-06",
+      "kind": "background",
+      "source": "2026-03-02_00.03.15.png",
+      "sourceBytes": 5064724,
+      "sourceSha256": "53829b96bfa965aea28ffa0028a5c4830949403110447774cc88f813dea11b24",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-06-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 37720
+        },
+        {
+          "file": "/public/assets/img/bg-06-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 18548
+        },
+        {
+          "file": "/public/assets/img/bg-06-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 6656
+        },
+        {
+          "file": "/public/assets/img/bg-06-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 140,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 63064,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-07",
+      "kind": "background",
+      "source": "2026-03-02_00.03.49.png",
+      "sourceBytes": 6164173,
+      "sourceSha256": "2bdca7e5430f296dfb651f2f848c6d0ff6c89262f9ea67edcefcc219c3449960",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-07-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 77458
+        },
+        {
+          "file": "/public/assets/img/bg-07-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 38748
+        },
+        {
+          "file": "/public/assets/img/bg-07-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 14458
+        },
+        {
+          "file": "/public/assets/img/bg-07-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 204,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 130868,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-08",
+      "kind": "background",
+      "source": "2026-03-02_00.04.16.png",
+      "sourceBytes": 4213769,
+      "sourceSha256": "d963364db83d912bee08521d13f8d3a53d2b4d1403faf61d56b1a226a8513f4c",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-08-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 62098
+        },
+        {
+          "file": "/public/assets/img/bg-08-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 30460
+        },
+        {
+          "file": "/public/assets/img/bg-08-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 9974
+        },
+        {
+          "file": "/public/assets/img/bg-08-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 96,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 102628,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-09",
+      "kind": "background",
+      "source": "2026-03-02_00.05.29.png",
+      "sourceBytes": 4399146,
+      "sourceSha256": "f0efd615f43e1721dd5c293649658410497b989bc3f6ac18c7b85f7edadc2b61",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-09-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 44012
+        },
+        {
+          "file": "/public/assets/img/bg-09-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 20818
+        },
+        {
+          "file": "/public/assets/img/bg-09-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 6884
+        },
+        {
+          "file": "/public/assets/img/bg-09-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 146,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 71860,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-10",
+      "kind": "background",
+      "source": "2026-03-02_00.05.56.png",
+      "sourceBytes": 5246603,
+      "sourceSha256": "0cb21053e9bb8f1615f34c44f3e09826ed43d993ce4332704232a61c60f130c0",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-10-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 92926
+        },
+        {
+          "file": "/public/assets/img/bg-10-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 43526
+        },
+        {
+          "file": "/public/assets/img/bg-10-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 13364
+        },
+        {
+          "file": "/public/assets/img/bg-10-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 150,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 149966,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-11",
+      "kind": "background",
+      "source": "2026-03-02_00.08.11.png",
+      "sourceBytes": 6112409,
+      "sourceSha256": "c6ae4e82415514f61b553c98e6a452106fab0e09adeb45a93cdbabaa3eb7a8b8",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-11-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 71642
+        },
+        {
+          "file": "/public/assets/img/bg-11-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 36088
+        },
+        {
+          "file": "/public/assets/img/bg-11-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 12954
+        },
+        {
+          "file": "/public/assets/img/bg-11-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 138,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 120822,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-12",
+      "kind": "background",
+      "source": "2026-03-02_00.08.50.png",
+      "sourceBytes": 5843393,
+      "sourceSha256": "24ccb94916a4da4a4acbb319e9642665b73b4c946f3408de20b95e5960d38560",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-12-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 70154
+        },
+        {
+          "file": "/public/assets/img/bg-12-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 35102
+        },
+        {
+          "file": "/public/assets/img/bg-12-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 11420
+        },
+        {
+          "file": "/public/assets/img/bg-12-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 138,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 116814,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-13",
+      "kind": "background",
+      "source": "2026-03-02_00.14.41.png",
+      "sourceBytes": 6631343,
+      "sourceSha256": "a66b87e69fddf8b5b0998c5a05e54efcb39e4c8e9094404583161afe4d11a176",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-13-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 160504
+        },
+        {
+          "file": "/public/assets/img/bg-13-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 80114
+        },
+        {
+          "file": "/public/assets/img/bg-13-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 25864
+        },
+        {
+          "file": "/public/assets/img/bg-13-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 194,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 266676,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-14",
+      "kind": "background",
+      "source": "2026-03-02_00.18.21.png",
+      "sourceBytes": 4575325,
+      "sourceSha256": "fb967fd022dd380e049fbcdd8c9e2172c51232bafe1d421190279a350935794a",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-14-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 32604
+        },
+        {
+          "file": "/public/assets/img/bg-14-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 14240
+        },
+        {
+          "file": "/public/assets/img/bg-14-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 4384
+        },
+        {
+          "file": "/public/assets/img/bg-14-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 88,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 51316,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-15",
+      "kind": "background",
+      "source": "2026-03-02_00.19.15.png",
+      "sourceBytes": 4841143,
+      "sourceSha256": "8d6d3c618656d5735296577101edd02a0c0622d6070ec9138bf8d2200582822c",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-15-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 31528
+        },
+        {
+          "file": "/public/assets/img/bg-15-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 14928
+        },
+        {
+          "file": "/public/assets/img/bg-15-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 4998
+        },
+        {
+          "file": "/public/assets/img/bg-15-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 90,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 51544,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "bg-16",
+      "kind": "background",
+      "source": "2026-03-02_00.19.56.png",
+      "sourceBytes": 5630173,
+      "sourceSha256": "22b4fbdd1363a34059ece79ed59fbff0c633ebd8e437552a5987c9b49c606a50",
+      "natural": {
+        "width": 2560,
+        "height": 1494
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/bg-16-1920.webp",
+          "width": 1920,
+          "height": 1120,
+          "quality": 78,
+          "bytes": 61560
+        },
+        {
+          "file": "/public/assets/img/bg-16-1280.webp",
+          "width": 1280,
+          "height": 747,
+          "quality": 75,
+          "bytes": 30416
+        },
+        {
+          "file": "/public/assets/img/bg-16-640.webp",
+          "width": 640,
+          "height": 374,
+          "quality": 70,
+          "bytes": 11232
+        },
+        {
+          "file": "/public/assets/img/bg-16-lqip.webp",
+          "width": 32,
+          "height": 19,
+          "quality": 35,
+          "bytes": 170,
+          "role": "lqip"
+        }
+      ],
+      "outputBytes": 103378,
+      "use": null,
+      "alt": ""
+    },
+    {
+      "id": "logo",
+      "kind": "logo",
+      "source": "捕梦者图标.png",
+      "sourceBytes": 147774,
+      "sourceSha256": "32edf674d08a34acfd13ad7d5f33ad7bc795748069c6e0030475aaa0ce6ff639",
+      "natural": {
+        "width": 855,
+        "height": 854
+      },
+      "outputs": [
+        {
+          "file": "/public/assets/img/logo-512.webp",
+          "width": 512,
+          "height": 511,
+          "quality": 90,
+          "bytes": 31574,
+          "format": "webp"
+        },
+        {
+          "file": "/public/assets/img/logo-256.webp",
+          "width": 256,
+          "height": 256,
+          "quality": 88,
+          "bytes": 15584,
+          "format": "webp"
+        },
+        {
+          "file": "/public/assets/img/logo-256.png",
+          "width": 256,
+          "height": 256,
+          "bytes": 49087,
+          "format": "png",
+          "alpha": true
+        },
+        {
+          "file": "/public/assets/img/favicon-64.png",
+          "width": 64,
+          "height": 64,
+          "bytes": 6992,
+          "format": "png",
+          "alpha": true
+        },
+        {
+          "file": "/public/assets/img/apple-touch-180.png",
+          "width": 180,
+          "height": 180,
+          "bytes": 31341,
+          "format": "png",
+          "alpha": true
+        }
+      ],
+      "outputBytes": 134578,
+      "use": "site-logo",
+      "alt": "捕梦者：崩坏的梦境"
+    }
+  ],
+  "notes": [
+    "assets-source/ 只用于开发，不进部署包。",
+    "use 字段由人工分配（联系表见 _recon/），前端按 use 取图。",
+    "所有输出均为 WebP；logo 额外提供 PNG 兜底与 favicon。"
+  ]
+}

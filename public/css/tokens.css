@@ -1,0 +1,101 @@
+/* =====================================================================
+   tokens.css —— 设计令牌
+   配色取自实测素材：捕梦者图标.png（粉/品红/暗紫/青）与夜景截图的冷金灯光
+   ===================================================================== */
+:root {
+  color-scheme: dark;
+
+  /* 主色（logo 实测主色占比：暗紫 9.0% / 粉 6.5% / 品红 5.9% / 青 8.0%） */
+  --c-pink: #f078c0;
+  --c-pink-soft: #f5a8d8;
+  --c-magenta: #a81860;
+  --c-plum: #300018;
+  --c-teal: #0e6e6e;
+  --c-teal-light: #3fb5ae;
+  --c-glow: #ffd479;
+
+  /* 夜底色阶 */
+  --c-night-0: #05060e;
+  --c-night-1: #0b0d1a;
+  --c-night-2: #141a2e;
+  --c-night-3: #1d2540;
+
+  /* 文本 */
+  --c-text: #ece9f7;
+  --c-text-dim: #a8a3c4;
+  --c-text-faint: #726d92;
+
+  /* 语义色（物品等阶用；与作者确认的颜色一一对应） */
+  --tier-pingdan: #e8e6f2;   /* 白 */
+  --tier-weitao: #7fb2ff;    /* 蓝 */
+  --tier-kegu: #d9a6ff;      /* 紫 */
+  --tier-mingxin: #ffcf6b;   /* 金 */
+  --tier-zuzhou: #ff7a6b;    /* 红 */
+  --tier-taikula: #9aa3b2;   /* 灰 */
+
+  /* --- 背景底图可见度（出厂默认值；想更亮/更暗改这五个数，或在维护后台「外观」里拖滑块） --- */
+  --bg-opacity: 0.78;           /* 底图整体不透明度：1 = 完全显示 */
+  --bg-boost: 1.08;             /* 亮度增益：给偏暗的夜景截图提亮（1 = 原样） */
+  --bg-veil-top: 0.46;          /* 顶部压暗（为了让首屏文字可读） */
+  --bg-veil-mid: 0.72;          /* 中部压暗 */
+  --bg-veil-bottom: 0.95;       /* 底部压暗（与页脚衔接） */
+
+  /* 玻璃 */
+  --glass-bg: rgba(18, 21, 38, 0.55);
+  --glass-bg-strong: rgba(14, 16, 30, 0.82);
+  --glass-border: rgba(240, 120, 192, 0.18);
+  --glass-border-soft: rgba(255, 255, 255, 0.08);
+  --glass-blur: 14px;
+
+  /* 尺寸 */
+  --shell: 1180px;
+  --shell-narrow: 820px;
+  --radius-s: 6px;
+  --radius-m: 10px;
+  --radius-l: 16px;
+  --radius-pill: 999px;
+  --header-h: 60px;
+
+  /* 间距 */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4.5rem;
+
+  /* 字体 */
+  --font-ui: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+  --font-title: "Noto Serif SC", "Songti SC", "SimSun", serif;
+  --fs-xs: 0.78rem;
+  --fs-s: 0.875rem;
+  --fs-m: 1rem;
+  --fs-l: 1.15rem;
+  --fs-xl: 1.45rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: clamp(2.2rem, 6vw, 4rem);
+
+  /* 动效 */
+  --dur-fast: 140ms;
+  --dur: 260ms;
+  --dur-slow: 520ms;
+  --ease: cubic-bezier(0.22, 0.68, 0.35, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* 阴影/光晕 */
+  --shadow-1: 0 2px 10px rgba(0, 0, 0, 0.35);
+  --shadow-2: 0 10px 30px rgba(0, 0, 0, 0.45);
+  --glow-pink: 0 0 24px rgba(240, 120, 192, 0.35);
+  --glow-teal: 0 0 22px rgba(63, 181, 174, 0.28);
+}
+
+/* 画像密度高的屏幕给一点紧凑 */
+@media (max-width: 480px) {
+  :root {
+    --fs-2xl: 1.6rem;
+    --sp-7: 2rem;
+    --sp-8: 3rem;
+  }
+}
